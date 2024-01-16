@@ -1,10 +1,12 @@
+import profile from '../assets/profile-pic.jpg'
+
 export default function AboutPage() {
     return (
         <div className="container">
             <h2>About me</h2>
             <div>
             <div className="hero w-100 d-flex justify-content-center mb-3"  style={{height: "8rem"}}>
-                <img src="../src/assets/profile-pic.jpg" alt="my personal avatar" style={{width: '8rem', borderRadius: '5rem'}}/>
+                <img src={profile} alt="my personal avatar" style={{width: '8rem', borderRadius: '5rem'}}/>
             </div>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet est placerat in egestas erat imperdiet sed euismod. Lectus urna duis convallis convallis tellus id interdum. Luctus accumsan tortor posuere ac. Sit amet cursus sit amet dictum. Donec pretium vulputate sapien nec sagittis aliquam.

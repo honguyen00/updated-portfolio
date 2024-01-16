@@ -1,9 +1,10 @@
+import resume from '../assets/Ho_Nguyen_Le_Resume.pdf'
 export default function ResumePage() {
     return (
         <div className="container">
             <h2>Resume</h2>
             <section>
-                <p>Download my <span><a href="/src/assets/Ho_Nguyen_Le_Resume.pdf" download="Ho_Nguyen_Le_Resume.pdf">resume</a></span></p>
+                <p>Download my <span><a href={resume} download="Ho_Nguyen_Le_Resume.pdf">resume</a></span></p>
             </section>
             <section>
                 <h3>Front-end Proficiencies</h3>
