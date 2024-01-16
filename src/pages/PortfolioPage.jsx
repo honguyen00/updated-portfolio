@@ -1,3 +1,10 @@
+import CarouselComponent from "../components/Projects";
+
 export default function PortfolioPage() {
-    return <h2>Portfolio Page</h2>
+    return (
+        <div className="container">
+            <h2>My Work</h2>
+            <CarouselComponent />
+        </div>
+    )
 }
