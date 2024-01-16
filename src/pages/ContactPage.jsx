@@ -6,9 +6,9 @@ export default function ContactPage() {
     const [error, setError] = useState('')
 
     function inputValidation(e) {
-        if (e.target.value == '' && error == '') {
+        if (e.target.value == '') {
             setError('Input cannot be empty!');
-        } else if (e.target.id === 'contact-form_email' && !e.target.value.match(/^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/) && error == '') {
+        } else if (e.target.id === 'contact-form_email' && !e.target.value.match(/^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/)) {
             setError('Not a valid email!');
         }
         else {
