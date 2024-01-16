@@ -5,7 +5,7 @@ export default function Work({title, image, github, livesite}) {
     const [style, setStyle] = useState({display: 'none'})
     return (
         <div className="work-container" style={{position: 'relative'}} onMouseOver={() => {setStyle({display: 'block'})}} onMouseOut={() => {setStyle({display: 'none'})}}>
-            <a href={livesite} target="_blank" style={{backgroundImage: `url(${image})`, backgroundSize: 'cover', backgroundPosition: 'center', display: 'block'}}>
+            <a href={livesite} target="_blank" style={{backgroundImage: `url(${image})`, backgroundSize: 'cover', display: 'block'}}>
                 <div className={style.display === 'none' ? "blur-effect d-flex align-items-center justify-content-center" : 
                 "blur-effect d-flex align-items-center justify-content-center hover"}></div>
             </a>

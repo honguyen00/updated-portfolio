@@ -1,8 +1,11 @@
-# React + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This is my portfolio that contains information about myself, my work, my technology background and how to contact me<br/>
+You can visit the live site here: `https://fascinating-cassata-8d100a.netlify.app/portfolio` 
 
-Currently, two official plugins are available:
+![Website-demo](./src/assets/readme-demo.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Questions
+If you have any questions and need to contact me, feel free to reach out at lehonguyen00@gmail.com.<br/>
+Or visit my [Github](https://github.com/honguyen00) for more information.
