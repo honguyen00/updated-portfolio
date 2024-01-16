@@ -1,7 +1,8 @@
 export default function AboutPage() {
     return (
-        <div className="container overflow-hidden">
+        <div className="container">
             <h2>About me</h2>
+            <div>
             <div className="hero w-100 d-flex justify-content-center mb-3"  style={{height: "8rem"}}>
                 <img src="../src/assets/profile-pic.jpg" alt="my personal avatar" style={{width: '8rem', borderRadius: '5rem'}}/>
             </div>
@@ -11,6 +12,7 @@ export default function AboutPage() {
             <p>
             Egestas fringilla phasellus faucibus scelerisque eleifend donec. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. Viverra tellus in hac habitasse. Nulla aliquet enim tortor at. In hac habitasse platea dictumst vestibulum rhoncus est. A scelerisque purus semper eget duis at tellus at. Tincidunt tortor aliquam nulla facilisi. Odio morbi quis commodo odio aenean.
             </p>
+            </div>
         </div>
     )
 }
