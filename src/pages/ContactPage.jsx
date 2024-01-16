@@ -19,11 +19,11 @@ export default function ContactPage() {
     return (
         <div className="container">
             <h2>Contact Me</h2>
-            <Form name="contact-form" labelCol={{span: 8}} wrapperCol={{span: 8}} autoComplete="off">
+            <Form name="contact-form" labelCol={{span: 4}} wrapperCol={{span: 16}} autoComplete="off">
                 <Form.Item label='Full name: ' name='fullname'><Input onBlur={(event) => {inputValidation(event)}}/></Form.Item>
                 <Form.Item label='Email: ' name='email'><Input onBlur={(event) => {inputValidation(event)}}/></Form.Item>
                 <Form.Item label='Message: ' name='message'><TextArea size="large" rows={8} onBlur={(event) => {inputValidation(event)}}/></Form.Item>
-                <Form.Item wrapperCol={{offset: 8, span: 8}}><Button htmlType="submit" style={{backgroundColor: "#EBC799", color: "#314347"}}>Submit</Button><span style={{marginLeft: '0.5rem', color: 'red'}}>{error}</span></Form.Item>
+                <Form.Item wrapperCol={{offset: 4, span: 8}}><Button htmlType="submit" style={{backgroundColor: "#EBC799", color: "#314347"}}>Submit</Button><span style={{marginLeft: '0.5rem', color: 'red'}}>{error}</span></Form.Item>
             </Form>
         </div>
     )
