@@ -9,10 +9,11 @@ export default function AboutPage() {
                 <img src={profile} alt="my personal avatar" style={{width: '8rem', borderRadius: '5rem'}}/>
             </div>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet est placerat in egestas erat imperdiet sed euismod. Lectus urna duis convallis convallis tellus id interdum. Luctus accumsan tortor posuere ac. Sit amet cursus sit amet dictum. Donec pretium vulputate sapien nec sagittis aliquam.
-            </p>
-            <p>
-            Egestas fringilla phasellus faucibus scelerisque eleifend donec. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. Viverra tellus in hac habitasse. Nulla aliquet enim tortor at. In hac habitasse platea dictumst vestibulum rhoncus est. A scelerisque purus semper eget duis at tellus at. Tincidunt tortor aliquam nulla facilisi. Odio morbi quis commodo odio aenean.
+            Greetings! I'm Felix, a passionate web developer based in Sydney with a flair for creating dynamic and user-friendly web applications.
+            With a solid foundation in web development technology, I bring a creative and detail-oriented approach to every project. 
+            My expertise extends to crafting responsive and visually appealing interfaces that prioritize both functionality and user experience. 
+            Constantly staying abreast of the latest web development trends, I am committed to delivering high-quality solutions that seamlessly blend innovation and practicality. 
+            Explore my portfolio to witness my dedication to transforming ideas into captivating online experiences.
             </p>
             </div>
         </div>
