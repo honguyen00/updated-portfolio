@@ -2,7 +2,7 @@
 
 ## Description
 This is my portfolio that contains information about myself, my work, my technology background and how to contact me<br/>
-You can visit the live site here: `https://fascinating-cassata-8d100a.netlify.app` 
+You can visit the live site here: https://fascinating-cassata-8d100a.netlify.app
 
 ![Website-demo](./src/assets/readme-demo.png)
 
