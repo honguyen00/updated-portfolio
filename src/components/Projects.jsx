@@ -7,6 +7,7 @@ import babysitters from '../assets/babysitters-demo.png'
 import jate from '../assets/jate-demo.png'
 import weather from '../assets/weather-forecast-demo.png'
 import planner from '../assets/daily-planner-demo.png'
+import workout from '../assets/workout-demo.png'
 
 const ArrowButton = ({currentSlide, slideCount, children, ...props}) => (
     <span {...props}>{children}</span>
@@ -53,27 +54,20 @@ export default class CarouselComponent extends Component {
       <div>
         <Carousel ref={node => (this.carousel = node)} {...props} arrows={true} prevArrow={SETTINGS.prevArrow} nextArrow={SETTINGS.nextArrow}>
           <div>
+            <Work title={'Workout Tracker'} image={workout}
+            livesite={"https://workout-tracker-574o.onrender.com"} github={'https://github.com/honguyen00/Fire-workout'}/>
+          </div>
+          <div>
             <Work title={'Parking with Access'} image={parking} 
             livesite={"https://honguyen00.github.io/map-parking/"} github={'https://github.com/honguyen00/map-parking'}/>
-          </div>
-          <div>
-            <Work title={'Babysitter App'} image={babysitters} 
-            livesite={"https://babysitters-app-7fe0f50cf2a3.herokuapp.com/"} github={'https://github.com/honguyen00/babysitters'}/>
-          </div>
-          <div>
-            <Work title={'JATE'} image={jate} 
-            livesite={"https://just-another-text-editor-jate.onrender.com"} github={'https://github.com/honguyen00/JATE'}/>
           </div>
           <div>
             <Work title={'Weather Forecast'} image={weather} 
             livesite={"https://honguyen00.github.io/map-parking/"} github={'https://github.com/honguyen00/map-parking'}/>
           </div>
           <div>
-            <Work title={'Daily Planner'} image={planner} 
-            livesite={"https://honguyen00.github.io/daily-planner/"} github={'https://github.com/honguyen00/daily-planner'}/>
-          </div>
-          <div>
-            <Work title={'Future Project'} livesite={"#"} github={'#'}/>
+            <Work title={'JATE'} image={jate} 
+            livesite={"https://just-another-text-editor-jate.onrender.com"} github={'https://github.com/honguyen00/JATE'}/>
           </div>
         </Carousel>
       </div>

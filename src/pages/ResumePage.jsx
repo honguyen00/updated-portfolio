@@ -1,4 +1,4 @@
-import resume from '../assets/Ho_Nguyen_Le_Resume.pdf'
+import resume from '../assets/Ho_Nguyen_(Felix)_Le_Resume.pdf'
 export default function ResumePage() {
     return (
         <div className="container">
